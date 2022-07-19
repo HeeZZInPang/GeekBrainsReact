@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useState, useEffect} from 'react';
-import {Message} from './components/Message/Message';
+import {MessageList} from './components/MessageList/MessageList';
 import {Form} from './components/Form/Form';
 import {AUTHORS} from './utils/constants'
 
@@ -28,11 +28,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="MessagesList">
-        {messages.map((msg) => 
-          <Message author={msg.author} text={msg.text} />
-        )}
-      </div>
+      <MessageList messages={messages} />
       <Form onSubmit={sendMessage} />
     </div>
   );
