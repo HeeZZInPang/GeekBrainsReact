@@ -1,0 +1,14 @@
+.App {    
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.MessagesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 500px;
+  margin: 10px 30px;
+  overflow-y: auto;
+}
