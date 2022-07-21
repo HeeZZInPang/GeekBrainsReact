@@ -1,6 +1,18 @@
-.App {    
-  width: 700px;
-  display: flex;
+.container {
+  width: 1000px;
   margin: 0 auto;
-  text-align: center;
+}
+
+.MuiBox-root { 
+  height: 100%;
+  padding-top: 80px;  
+  display: flex;
+}
+
+.MuiToolbar-root a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 10px;
 }
