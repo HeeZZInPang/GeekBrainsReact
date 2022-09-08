@@ -1,0 +1,8 @@
+input.MuiInput-input {
+	width: 600px;
+}
+
+button.MuiButton-root {
+	margin-left: 10px;
+	width: 100px;
+}
