@@ -1,0 +1,10 @@
+.message {
+    text-align: left;
+    padding: 5px;
+}
+
+.author {
+    color: #494949;
+    text-transform: uppercase;
+    font-size: 14px;
+}
